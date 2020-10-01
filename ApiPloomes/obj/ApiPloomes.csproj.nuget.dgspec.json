@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Owin": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -54,6 +58,14 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.Owin.Cors": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Microsoft.Owin.Host.SystemWeb": {
+              "target": "Package",
+              "version": "[4.1.1, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

@@ -56,7 +56,28 @@ namespace ApiPloomes.Controllers
 
             var usuario = await _context.Usuario.Where(x => x.Nome == nome).ToListAsync();
 
+            if (usuario == null) {
+                return NotFound();
+            }
+
             return Ok(usuario);
+        }
+
+        [HttpGet("login")]
+        public async Task<IActionResult> Login([FromBody] Usuario usuario) {
+            if (!ModelState.IsValid) {
+                return BadRequest(ModelState);
+            }
+
+            var resultado = await _context.Usuario.Where(x => (x.Email == usuario.Email) && (x.Senha == usuario.Senha)).ToListAsync();
+
+            if (resultado == null) {
+
+            }
+
+            var retorno = new { status = "Login realizado com sucesso" };
+
+            return Ok(retorno);
         }
 
         // PUT: api/Usuarios/5
