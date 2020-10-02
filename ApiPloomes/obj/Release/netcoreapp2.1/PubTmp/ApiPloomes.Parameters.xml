@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ApiPloomes20200930100335" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\lucas\\source\\repos\\ApiPloomes\\ApiPloomes\\obj\\Release\\netcoreapp2\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="ApiPloomes.Data.ApiPloomesContext" description="" value="Data Source=tcp:apiploomes20200930100335dbserver.database.windows.net,1433;Initial Catalog=ApiPloomes20200930100335_db;User Id=calixto@apiploomes20200930100335dbserver;Password=Ll64972101" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\lucas\\source\\repos\\ApiPloomes\\ApiPloomes\\obj\\Release\\netcoreapp2\.1\\PubTmp\\EFSQLScripts\\ApiPloomes\.Data\.ApiPloomesContext\.sql$" />
+  </parameter>
+</parameters>

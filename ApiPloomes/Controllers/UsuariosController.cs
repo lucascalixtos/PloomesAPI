@@ -150,6 +150,23 @@ namespace ApiPloomes.Controllers
 
             return Ok(usuario);
         }
+        
+        [HttpGet("PaginacaoUsuario")]
+        public async Task<IActionResult> PaginacaoUsuario([FromQuery] int pagina, [FromQuery] int quantidadeRegistros) {
+
+            if (!ModelState.IsValid) {
+                return BadRequest(ModelState);
+            }
+
+            int totalPaginas = (int)Math.Ceiling(await _context.Usuario.CountAsync() / Convert.ToDecimal(quantidadeRegistros));
+            var usuario = _context.Usuario.OrderBy(m => m.Id).Skip(quantidadeRegistros * (pagina - 1)).Take(quantidadeRegistros);
+
+            if (usuario == null) {
+                return NotFound();
+            }
+
+            return Ok(usuario);
+        }
 
         private bool UsuarioExists(int id)
         {

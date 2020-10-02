@@ -1,0 +1,16 @@
+C:\Users\lucas\source\repos\ApiPloomes\ApiPloomes\bin\Release\netcoreapp2.1\appsettings.Development.json
+C:\Users\lucas\source\repos\ApiPloomes\ApiPloomes\bin\Release\netcoreapp2.1\appsettings.json
+C:\Users\lucas\source\repos\ApiPloomes\ApiPloomes\bin\Release\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\lucas\source\repos\ApiPloomes\ApiPloomes\bin\Release\netcoreapp2.1\ApiPloomes.deps.json
+C:\Users\lucas\source\repos\ApiPloomes\ApiPloomes\bin\Release\netcoreapp2.1\ApiPloomes.runtimeconfig.json
+C:\Users\lucas\source\repos\ApiPloomes\ApiPloomes\bin\Release\netcoreapp2.1\ApiPloomes.runtimeconfig.dev.json
+C:\Users\lucas\source\repos\ApiPloomes\ApiPloomes\bin\Release\netcoreapp2.1\ApiPloomes.dll
+C:\Users\lucas\source\repos\ApiPloomes\ApiPloomes\bin\Release\netcoreapp2.1\ApiPloomes.pdb
+C:\Users\lucas\source\repos\ApiPloomes\ApiPloomes\obj\Release\netcoreapp2.1\ApiPloomes.csprojAssemblyReference.cache
+C:\Users\lucas\source\repos\ApiPloomes\ApiPloomes\obj\Release\netcoreapp2.1\ApiPloomes.RazorAssemblyInfo.cache
+C:\Users\lucas\source\repos\ApiPloomes\ApiPloomes\obj\Release\netcoreapp2.1\ApiPloomes.RazorAssemblyInfo.cs
+C:\Users\lucas\source\repos\ApiPloomes\ApiPloomes\obj\Release\netcoreapp2.1\ApiPloomes.AssemblyInfoInputs.cache
+C:\Users\lucas\source\repos\ApiPloomes\ApiPloomes\obj\Release\netcoreapp2.1\ApiPloomes.AssemblyInfo.cs
+C:\Users\lucas\source\repos\ApiPloomes\ApiPloomes\obj\Release\netcoreapp2.1\ApiPloomes.RazorTargetAssemblyInfo.cache
+C:\Users\lucas\source\repos\ApiPloomes\ApiPloomes\obj\Release\netcoreapp2.1\ApiPloomes.dll
+C:\Users\lucas\source\repos\ApiPloomes\ApiPloomes\obj\Release\netcoreapp2.1\ApiPloomes.pdb
