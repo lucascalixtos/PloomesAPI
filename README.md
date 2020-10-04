@@ -190,7 +190,7 @@ Resposta da requisição - 200 Ok:
     "email": "testeil.com",
     "senha": "123",
     "telefone": "4444-4444"
-  },
+  },Re
   {
     "id": 4,
     "nome": "Usuario3",
@@ -233,5 +233,25 @@ Resposta da requisição - 200 Ok:
   }
 ]
 ```
+
+### GET /Usuarios/GetByName/{nome} - Busca usuários por nome específico
+
+Url da requisição: https://apiploomes20200930100335.azurewebsites.net/api/Usuarios/GetByName/{nome}
+
+Resposta da requisição - 200 Ok:
+
+```json
+[
+  {
+    "id": 2,
+    "nome": "User2",
+    "sobrenome": "Exemplo",
+    "email": "teste@email.com",
+    "senha": "123",
+    "telefone": "4444-4444"
+  }
+]
+```
+
 
 
