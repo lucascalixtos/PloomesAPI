@@ -190,7 +190,7 @@ Resposta da requisição - 200 Ok:
     "email": "testeil.com",
     "senha": "123",
     "telefone": "4444-4444"
-  },Re
+  },
   {
     "id": 4,
     "nome": "Usuario3",
